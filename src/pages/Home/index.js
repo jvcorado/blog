@@ -59,9 +59,6 @@ export const Home = ()=>{
 
     return(
         <div className="container">
-
-            <button className='btn btn-home' 
-            onClick={telaLogin}>Login</button>
             <Logo/>
             <h1 className='title'>Publicações Recentes</h1>
             <main className="postagem">

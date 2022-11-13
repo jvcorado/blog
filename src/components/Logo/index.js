@@ -5,7 +5,7 @@ import jvcorado from './jvDark.jpeg'
 
 export const Logo = (props)=>{
     return(
-        <Link className="logo logo-admin" to='/'>
+        <Link className="logo logo-admin" to='/login'>
            <img src={jvcorado} alt="jvcorado" />
         </Link>
     )

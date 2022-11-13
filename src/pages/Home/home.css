@@ -29,8 +29,7 @@
 .btn-home {
     align-self: flex-end;
     margin: 10px;
-    max-width: 200px;
-    
+    max-width: 200px;  
 }
 .btn{
     box-shadow: 13px 2px 26px -10px rgba(0,0,0,0.75);
@@ -39,6 +38,9 @@
 @media (max-width:560px) {
     .postagem{
         width: 100%;
+    }
+    .btn-home{
+        width: 50px;
     }
     
 }
