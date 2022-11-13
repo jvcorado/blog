@@ -26,6 +26,14 @@
     border-radius: 10px;
     box-shadow: 13px 2px 26px -10px rgba(0,0,0,0.75);
 }
+.text-post{
+    font-size: 18px;
+    line-height: 26px;
+}
+.autor-post{
+    font-weight: bold;
+    font-style: italic;
+}
 .btn-home {
     align-self: flex-end;
     margin: 10px;
