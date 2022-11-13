@@ -1,0 +1,35 @@
+.container{
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+
+}
+.container h1{
+    margin-top: 20px;
+}
+.postagem{
+    max-width: 600px;
+    padding: 20px;
+    border-radius: 10px;
+}
+.post-area{
+
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 20px;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 13px 2px 26px -10px rgba(0,0,0,0.75);
+}
+
+@media (max-width:560px) {
+    .postagem{
+        width: 100%;
+    }
+    
+}
