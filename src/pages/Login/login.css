@@ -26,9 +26,14 @@
 
 @media (max-width:560px) {
     .container-login{
-        justify-content: flex-start;
+        padding-top: 0;
     }
     .form{
+        background-color: aquamarine;
         width: 100vw;
     } 
+    .title{
+        margin: 0;
+      
+    }
 }

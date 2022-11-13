@@ -21,7 +21,7 @@ export const Admin = ()=>{
 
     const [titleInput, setTitleInput] = useState("");
     const [msgInput, setMsgInput] = useState("");
-    const [autorInput, setAutorInput] = useState("");
+    const [autorInput, setAutorInput] = useState("@jvcorado");
   
     const [posts, setPosts] = useState([])
 
@@ -39,7 +39,7 @@ export const Admin = ()=>{
                    id:doc.id,
                    title:doc.data().title,
                    msg:doc.data().msg,
-                   autor:doc.data().autor
+                   autor:doc.data().autor,
                 }
             )
         })
@@ -66,7 +66,6 @@ export const Admin = ()=>{
         })
         .then(()=>{
             setTitleInput("")
-            setAutorInput("")
             setMsgInput("")
             console.log('Post criado com sucesso')
         })
@@ -110,7 +109,6 @@ export const Admin = ()=>{
                     name="autor"
                     id="autor"
                     value={autorInput}
-                    onChange={(e)=> setAutorInput(e.target.value)}
                     placeholder="Autor"
                 />
 

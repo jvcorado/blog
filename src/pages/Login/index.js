@@ -34,7 +34,7 @@ export const Login = ()=>{
 
     return(
         <div className="container container-login">
-            <Logo/>
+            <Logo className="logo-login"/>
             <h1 className='title'>Faça seu Login</h1>
             <form className="form" onSubmit={handleLogin}>
                 <Input
