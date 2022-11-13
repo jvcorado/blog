@@ -4,6 +4,7 @@
     line-height: 66px;
     color: white;
     transition: transform 0.5s;
+    margin-top: 10px;
 }
 
 .logo:hover{
