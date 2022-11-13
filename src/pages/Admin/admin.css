@@ -1,3 +1,7 @@
+.text{
+    margin: 20px;
+}
+
 .msg{
     width: 100%;
     border: none;
@@ -7,9 +11,15 @@
     border-radius: 4px;
     font-size: 20px;
     resize: none;
+    box-shadow: 13px 2px 26px -10px rgba(0,0,0,0.75);
 }
 
 .preview{
     max-width: 600px;
     width: 100%;
+    
+}
+
+.post-area{
+    box-shadow: 13px 2px 26px -10px rgba(0,0,0,0.75);
 }

@@ -15,6 +15,7 @@ import {
     getDoc
 
 } from 'firebase/firestore';
+import { Logo } from '../../components/Logo';
 
 export const Home = ()=>{
 
@@ -59,10 +60,10 @@ export const Home = ()=>{
     return(
         <div className="container">
 
-            <button className='btn' 
-            onClick={telaLogin}>Acessar</button>
-
-            <h1>Blog JVC</h1>
+            <button className='btn btn-home' 
+            onClick={telaLogin}>Login</button>
+            <Logo/>
+            <h1 className='title'>Publicações Recentes</h1>
             <main className="postagem">
 
                 {posts.map((item) =>(

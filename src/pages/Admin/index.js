@@ -85,7 +85,7 @@ export const Admin = ()=>{
         <div className="container">
             <Header></Header>
             <form className="form" onSubmit={handleRegister}>
-                <h1>Nova Postagem</h1>   
+                <h1 className='text'>Nova Postagem</h1>   
                 <Input
                     type="text"
                     name="title"
@@ -126,7 +126,7 @@ export const Admin = ()=>{
                 )}
                 <button type="submit" className="btn">Publicar</button>
 
-                <h2 className='title'>
+                <h2 className='text'>
                     Minhas Postagens
                 </h2>
 

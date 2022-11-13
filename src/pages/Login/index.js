@@ -4,6 +4,8 @@ import { Input } from "../../components/Input"
 import { useState } from 'react';
 import { auth } from '../../services/firebaseConection';
 import { signInWithEmailAndPassword } from 'firebase/auth';
+import { Logo } from "../../components/Logo";
+
 
 export const Login = ()=>{
 
@@ -32,7 +34,8 @@ export const Login = ()=>{
 
     return(
         <div className="container container-login">
-            <h1>Faça seu Login</h1>
+            <Logo/>
+            <h1 className='title'>Faça seu Login</h1>
             <form className="form" onSubmit={handleLogin}>
                 <Input
                     type="email" 
